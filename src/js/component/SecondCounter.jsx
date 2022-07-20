@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-//create your first component
+
+//Creo el componente del contador,le paso las props utilizando destructuring
+
 const SecondCounter = ({ days, hours, minutes, seconds}) => {
   return (
     <>
@@ -30,10 +32,14 @@ const SecondCounter = ({ days, hours, minutes, seconds}) => {
   );
 };
 
+// Declaro las props
+
 SecondCounter.propTypes = {
   seconds: PropTypes.number,
   minutes: PropTypes.number,
   hours: PropTypes.number,
   days: PropTypes.number,
 };
+
+
 export default SecondCounter;

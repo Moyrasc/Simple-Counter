@@ -8,16 +8,20 @@ Use la función setInterval() para volver a renderizar el componente cada segund
 3) El componente no necesita un estado local, puede pasar la cantidad de segundos como props .
 4) Puede encontrar el ícono del reloj a la izquierda del componente en fuente impresionante.
 
+En vez de pasarle los segundos fijos como prop, dentro de la función setInterval cree sentencias condicionales para que se fuese actualizando cada segundo,minuto,hora y día como si de un cronometro se tratará.
+Además decidí añadir una imagen como  background y darle efectos al contador para que fuese más visual.
+
+
 ### Instalación Manual
 
-1) Remember to install the npm packages first:
+1) Recuerda instalar primero los paquetes de npm :
 ```
 $ npm install
 ```
 
-2) Build and Start coding!
+2) Construye y empieza a programar :
 
-Build the application for the first time...
+Construir la aplicación por primera vez...
 
 ```
 $ npm run start
